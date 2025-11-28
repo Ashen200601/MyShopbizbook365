@@ -1,0 +1,44 @@
+### TODOs
+| Filename | line # | TODO |
+|:------|:------:|:------|
+| [modules.local/analytics/inc/services.php](modules.local/analytics/inc/services.php#L306) | 306 | replace with production value |
+| [modules.local/analytics/inc/services.php](modules.local/analytics/inc/services.php#L309) | 309 | replace with production value |
+| [modules.local/checkout/inc/services.php](modules.local/checkout/inc/services.php#L132) | 132 | use min.js when script debug is enabled |
+| [modules.local/checkout/inc/services.php](modules.local/checkout/inc/services.php#L285) | 285 | consider adding our own hidden block to checkout for our custom fields, |
+| [modules.local/checkout/src/CheckoutModule.php](modules.local/checkout/src/CheckoutModule.php#L346) | 346 | supply a proper css file for this. Rework markup into something more responsive |
+| [modules.local/embedded-payment/src/EmbeddedPaymentModule.php](modules.local/embedded-payment/src/EmbeddedPaymentModule.php#L221) | 221 | Remove this check when support for these versions is dropped |
+| [modules.local/embedded-payment/src/EmbeddedPaymentModule.php](modules.local/embedded-payment/src/EmbeddedPaymentModule.php#L310) | 310 | Refactor the environment detection to use the current WP options. |
+| [modules.local/embedded-payment/src/EmbeddedPaymentModule.php](modules.local/embedded-payment/src/EmbeddedPaymentModule.php#L314) | 314 | Determine whether we can get SRI details (URL + hash) from the LIST response, and drop this service. |
+| [modules.local/embedded-payment/src/EmbeddedPaymentModule.php](modules.local/embedded-payment/src/EmbeddedPaymentModule.php#L321) | 321 | Consider returning the full SDK URL instead of only the environment. We could return the final `websdk.assets.umd.url.template` here. |
+| [modules.local/embedded-payment/src/ListLongIdPaymentRequestValidator.php](modules.local/embedded-payment/src/ListLongIdPaymentRequestValidator.php#L53) | 53 | Put this in a const/enum or make it a constructor argument |
+| [modules.local/list-session/src/ListSessionModule.php](modules.local/list-session/src/ListSessionModule.php#L62) | 62 | check if we still need this after Fetch command is implemented |
+| [modules.local/payment-methods/inc/services.php](modules.local/payment-methods/inc/services.php#L98) | 98 | think about moving this to factories |
+| [modules.local/settings/src/SettingsModule.php](modules.local/settings/src/SettingsModule.php#L645) | 645 | Remove/Refactor this when WC 9.7+ releases the revamped Payment Settings UX |
+| [modules.local/wp/inc/factories.php](modules.local/wp/inc/factories.php#L18) | 18 | make our order_pay request be detected as a checkout in the same way as |
+| [modules.local/wp/inc/services.php](modules.local/wp/inc/services.php#L293) | 293 | deal with the code duplication. Currently, we have the same logic |
+| [modules.local/wp/inc/services.php](modules.local/wp/inc/services.php#L354) | 354 | check if this can return false because called too early |
+| [modules.local/list-session/src/Middleware/AbortHandlingMiddleware.php](modules.local/list-session/src/Middleware/AbortHandlingMiddleware.php#L86) | 86 | consider persisting this ID somewhere, maybe in transients. |
+| [modules.local/list-session/src/Middleware/UpdatingMiddleware.php](modules.local/list-session/src/Middleware/UpdatingMiddleware.php#L113) | 113 | Log errors during UPDATE |
+| [modules.local/payment-methods/src/Definition/AbstractPayoneerPaymentMethodDefinition.php](modules.local/payment-methods/src/Definition/AbstractPayoneerPaymentMethodDefinition.php#L189) | 189 | try to make Factory return type understandable for psalm using templates on |
+| [modules.local/payment-methods/src/GatewayIconsRenderer/DynamicIconProvider.php](modules.local/payment-methods/src/GatewayIconsRenderer/DynamicIconProvider.php#L77) | 77 | logging |
+| [modules.local/payment-methods/src/Refunds/RefundTextContents.php](modules.local/payment-methods/src/Refunds/RefundTextContents.php#L43) | 43 | We want to include failure details, but lack of documentation prevents us from this. |
+| [modules.local/payment-methods/src/Refunds/RefundTextContents.php](modules.local/payment-methods/src/Refunds/RefundTextContents.php#L86) | 86 | We want to include failure details, but lack of documentation prevents us from this. |
+| [modules.local/payment-methods/src/Refunds/RefundTextContents.php](modules.local/payment-methods/src/Refunds/RefundTextContents.php#L128) | 128 | We want to include failure details, but lack of documentation prevents us from this. |
+| [modules.local/payment-methods/src/Refunds/Admin/AsyncRefundAdminUi.php](modules.local/payment-methods/src/Refunds/Admin/AsyncRefundAdminUi.php#L16) | 16 | add test cases for this class. |
+| [modules.local/payment-methods/src/Refunds/Admin/AsyncRefundGlobalNotices.php](modules.local/payment-methods/src/Refunds/Admin/AsyncRefundGlobalNotices.php#L16) | 16 | add test cases for this class. |
+| [modules.local/payment-methods/src/Refunds/Admin/AsyncRefundGlobalNotices.php](modules.local/payment-methods/src/Refunds/Admin/AsyncRefundGlobalNotices.php#L80) | 80 | Consider to move this check into the registry |
+| [modules.local/payment-methods/src/Refunds/Admin/RefundFailureEmailSender.php](modules.local/payment-methods/src/Refunds/Admin/RefundFailureEmailSender.php#L10) | 10 | add test cases for this class. |
+| [modules.local/payment-methods/src/Refunds/Storage/AsyncRefundIntentStorage.php](modules.local/payment-methods/src/Refunds/Storage/AsyncRefundIntentStorage.php#L12) | 12 | Not tested, as it's not fully implemented yet. |
+| [modules.local/api/tests/php/Integration/Gateway/PaymentTestCase.php](modules.local/api/tests/php/Integration/Gateway/PaymentTestCase.php#L22) | 22 | replace 'inpsyde_payment_gateway.payoneer' with a mocked PaymentProcessor/ChargeCommand |
+| [modules.local/api/tests/php/Integration/Gateway/ProcessRefundTest.php](modules.local/api/tests/php/Integration/Gateway/ProcessRefundTest.php#L50) | 50 | Review and fix this integration test. |
+| [modules.local/api/tests/php/Integration/Gateway/ProcessRefundTest.php](modules.local/api/tests/php/Integration/Gateway/ProcessRefundTest.php#L133) | 133 | Is this test really needed? All dependencies are tested in isolation. |
+| [modules.local/embedded-payment/resources/js/src/store/actions.js](modules.local/embedded-payment/resources/js/src/store/actions.js#L172) | 172 | possibly we also need to unmount the component (unmountAndRemoveComponent). |
+| [modules.local/embedded-payment/resources/js/src/store/storeListeners.js](modules.local/embedded-payment/resources/js/src/store/storeListeners.js#L97) | 97 | remove this workaround when the problem is fixed on the Payoneer side. If there |
+| [modules.local/embedded-payment/resources/js/src/util/woocommerce.js](modules.local/embedded-payment/resources/js/src/util/woocommerce.js#L23) | 23 | Refactor this to be more scalable. Check overlap with getComponentNameByGatewayId() |
+| [modules.local/webhooks/tests/php/Integration/Controller/PayoneerWebhooksControllerTest.php](modules.local/webhooks/tests/php/Integration/Controller/PayoneerWebhooksControllerTest.php#L92) | 92 | we never return anything else than 200 with empty body, so this assert is useless |
+| [modules.local/webhooks/tests/php/Integration/Controller/PayoneerWebhooksControllerTest.php](modules.local/webhooks/tests/php/Integration/Controller/PayoneerWebhooksControllerTest.php#L106) | 106 | Review and fix this integration test. |
+| [modules.local/webhooks/tests/php/Integration/Controller/PayoneerWebhooksControllerTest.php](modules.local/webhooks/tests/php/Integration/Controller/PayoneerWebhooksControllerTest.php#L216) | 216 | we never return anything else than 200 with empty body, so this assert is useless |
+| [modules.local/webhooks/tests/php/Integration/Controller/PayoneerWebhooksControllerTest.php](modules.local/webhooks/tests/php/Integration/Controller/PayoneerWebhooksControllerTest.php#L227) | 227 | Review and fix this integration test. |
+| [modules.local/webhooks/tests/php/Integration/Controller/PayoneerWebhooksControllerTest.php](modules.local/webhooks/tests/php/Integration/Controller/PayoneerWebhooksControllerTest.php#L324) | 324 | we never return anything else than 200 with empty body, so this assert is useless |
+| [modules.local/webhooks/tests/php/Integration/Controller/PayoneerWebhooksControllerTest.php](modules.local/webhooks/tests/php/Integration/Controller/PayoneerWebhooksControllerTest.php#L462) | 462 | we never return anything else than 200 with empty body, so this assert is useless |
+| [modules.local/webhooks/tests/php/Integration/Controller/PayoneerWebhooksControllerTest.php](modules.local/webhooks/tests/php/Integration/Controller/PayoneerWebhooksControllerTest.php#L530) | 530 | we never return anything else than 200 with empty body, so this assert is useless |

@@ -1,0 +1,37 @@
+2025-11-24T08:24:41+00:00 DEBUG #1515 - [New Request] POST /myshop/wordpress/index.php
+2025-11-24T08:24:41+00:00 DEBUG #1515 - Webhook lock acquired for 'register'.
+2025-11-24T08:24:41+00:00 DEBUG #1515 - Webhook operation 'register' started.
+2025-11-24T08:24:42+00:00 DEBUG #1515 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-11-24T08:24:42+00:00 ERROR #1515 - Failed to delete webhooks: [Error] Not Found
+2025-11-24T08:24:42+00:00 INFO #1515 - Webhooks deleted.
+2025-11-24T08:24:43+00:00 DEBUG #1515 - POST https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Request Body: {"url":"https:\/\/localhost\/myshop\/wordpress\/index.php?rest_route=\/paypal\/v1\/incoming","event_types":[{"name":"CHECKOUT.ORDER.APPROVED"},{"name":"CHECKOUT.ORDER.COMPLETED"},{"name":"CHECKOUT.PAYMENT-APPROVAL.REVERSED"},{"name":"PAYMENT.CAPTURE.REFUNDED"},{"name":"PAYMENT.AUTHORIZATION.VOIDED"},{"name":"PAYMENT.CAPTURE.REVERSED"},{"name":"PAYMENT.ORDER.CANCELLED"},{"name":"PAYMENT.CAPTURE.DENIED"},{"name":"PAYMENT.CAPTURE.COMPLETED"},{"name":"VAULT.PAYMENT-TOKEN.CREATED"},{"name":"VAULT.PAYMENT-TOKEN.DELETED"},{"name":"PAYMENT.CAPTURE.PENDING"},{"name":"PAYMENT.SALE.COMPLETED"},{"name":"PAYMENT.SALE.REFUNDED"},{"name":"BILLING.SUBSCRIPTION.CANCELLED"},{"name":"BILLING.PLAN.PRICING-CHANGE.ACTIVATED"},{"name":"CATALOG.PRODUCT.UPDATED"},{"name":"BILLING.PLAN.UPDATED"}]}
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-11-24T08:24:43+00:00 ERROR #1515 - Failed to subscribe webhooks: [Error] Not Found
+2025-11-24T08:24:43+00:00 DEBUG #1515 - Webhook lock released for 'register'.
+2025-11-24T09:07:59+00:00 DEBUG #3881 - [New Request] GET /myshop/wordpress/wp-admin/admin.php
+2025-11-24T09:07:59+00:00 DEBUG #3881 - GET https://api.woocommerce.com/integrations/ppc/v1/customer/partners/K8SKZ36LQBWXJ/merchant-integrations/
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2025-11-24T09:07:59+00:00 WARNING #3881 - [Error] Not Found CONTEXT: {"args":{"method":"GET","headers":{"Authorization":"Bearer token","Content-Type":"application/json"}},"response":{"headers":{},"body":"{"statusCode":404,"error":"Not Found","message":"Not Found"}","response":{"code":404,"message":"Not Found"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}}
