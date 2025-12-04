@@ -1,0 +1,48 @@
+2025-12-04T05:47:43+00:00 INFO Started creating list session.
+2025-12-04T05:47:43+00:00 INFO Started creating list session.
+2025-12-04T05:47:43+00:00 ERROR Failed to create LIST session. Exception caught: Syde\Vendor\Inpsyde\PayoneerSdk\Api\Command\Exception\CommandException: Failed to create list session. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\modules\inpsyde\payoneer-sdk\src\Api\Command\CreateListCommand.php:136
+Previous:
+Syde\Vendor\Inpsyde\PayoneerSdk\Client\ApiClientException: Api request failed. Exception was caught when trying to send request: A valid URL was not provided. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\modules\inpsyde\payoneer-sdk\src\Client\ApiClient.php:166
+Previous:
+Syde\Vendor\Inpsyde\Wp\HttpClient\Exception\NetworkException: A valid URL was not provided. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\vendor\inpsyde\psr-18-wp-http-client\src\Client.php:74 CONTEXT: {"exception":{}}
+2025-12-04T05:47:43+00:00 ERROR Failed to create LIST session. Exception caught: Syde\Vendor\Inpsyde\PayoneerSdk\Api\Command\Exception\CommandException: Failed to create list session. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\modules\inpsyde\payoneer-sdk\src\Api\Command\CreateListCommand.php:136
+Previous:
+Syde\Vendor\Inpsyde\PayoneerSdk\Client\ApiClientException: Api request failed. Exception was caught when trying to send request: A valid URL was not provided. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\modules\inpsyde\payoneer-sdk\src\Client\ApiClient.php:166
+Previous:
+Syde\Vendor\Inpsyde\Wp\HttpClient\Exception\NetworkException: A valid URL was not provided. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\vendor\inpsyde\psr-18-wp-http-client\src\Client.php:74 CONTEXT: {"exception":{}}
+2025-12-04T06:01:57+00:00 INFO Started creating list session.
+2025-12-04T06:01:57+00:00 ERROR Failed to create LIST session. Exception caught: Syde\Vendor\Inpsyde\PayoneerSdk\Api\Command\Exception\CommandException: Failed to create list session. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\modules\inpsyde\payoneer-sdk\src\Api\Command\CreateListCommand.php:136
+Previous:
+Syde\Vendor\Inpsyde\PayoneerSdk\Client\ApiClientException: Api request failed. Exception was caught when trying to send request: A valid URL was not provided. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\modules\inpsyde\payoneer-sdk\src\Client\ApiClient.php:166
+Previous:
+Syde\Vendor\Inpsyde\Wp\HttpClient\Exception\NetworkException: A valid URL was not provided. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\vendor\inpsyde\psr-18-wp-http-client\src\Client.php:74 CONTEXT: {"exception":{}}
+2025-12-04T06:30:09+00:00 INFO Started creating list session.
+2025-12-04T06:30:09+00:00 ERROR Failed to create LIST session. Exception caught: Syde\Vendor\Inpsyde\PayoneerSdk\Api\Command\Exception\CommandException: Failed to create list session. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\modules\inpsyde\payoneer-sdk\src\Api\Command\CreateListCommand.php:136
+Previous:
+Syde\Vendor\Inpsyde\PayoneerSdk\Client\ApiClientException: Api request failed. Exception was caught when trying to send request: A valid URL was not provided. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\modules\inpsyde\payoneer-sdk\src\Client\ApiClient.php:166
+Previous:
+Syde\Vendor\Inpsyde\Wp\HttpClient\Exception\NetworkException: A valid URL was not provided. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\vendor\inpsyde\psr-18-wp-http-client\src\Client.php:74 CONTEXT: {"exception":{}}
+2025-12-04T06:30:12+00:00 INFO Started creating list session.
+2025-12-04T06:30:12+00:00 ERROR Failed to create LIST session. Exception caught: Syde\Vendor\Inpsyde\PayoneerSdk\Api\Command\Exception\CommandException: Failed to create list session. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\modules\inpsyde\payoneer-sdk\src\Api\Command\CreateListCommand.php:136
+Previous:
+Syde\Vendor\Inpsyde\PayoneerSdk\Client\ApiClientException: Api request failed. Exception was caught when trying to send request: A valid URL was not provided. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\modules\inpsyde\payoneer-sdk\src\Client\ApiClient.php:166
+Previous:
+Syde\Vendor\Inpsyde\Wp\HttpClient\Exception\NetworkException: A valid URL was not provided. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\vendor\inpsyde\psr-18-wp-http-client\src\Client.php:74 CONTEXT: {"exception":{}}
+2025-12-04T06:30:25+00:00 INFO Started creating list session.
+2025-12-04T06:30:25+00:00 ERROR Failed to create LIST session. Exception caught: Syde\Vendor\Inpsyde\PayoneerSdk\Api\Command\Exception\CommandException: Failed to create list session. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\modules\inpsyde\payoneer-sdk\src\Api\Command\CreateListCommand.php:136
+Previous:
+Syde\Vendor\Inpsyde\PayoneerSdk\Client\ApiClientException: Api request failed. Exception was caught when trying to send request: A valid URL was not provided. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\modules\inpsyde\payoneer-sdk\src\Client\ApiClient.php:166
+Previous:
+Syde\Vendor\Inpsyde\Wp\HttpClient\Exception\NetworkException: A valid URL was not provided. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\vendor\inpsyde\psr-18-wp-http-client\src\Client.php:74 CONTEXT: {"exception":{}}
+2025-12-04T06:30:30+00:00 INFO Started creating list session.
+2025-12-04T06:30:30+00:00 ERROR Failed to create LIST session. Exception caught: Syde\Vendor\Inpsyde\PayoneerSdk\Api\Command\Exception\CommandException: Failed to create list session. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\modules\inpsyde\payoneer-sdk\src\Api\Command\CreateListCommand.php:136
+Previous:
+Syde\Vendor\Inpsyde\PayoneerSdk\Client\ApiClientException: Api request failed. Exception was caught when trying to send request: A valid URL was not provided. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\modules\inpsyde\payoneer-sdk\src\Client\ApiClient.php:166
+Previous:
+Syde\Vendor\Inpsyde\Wp\HttpClient\Exception\NetworkException: A valid URL was not provided. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\vendor\inpsyde\psr-18-wp-http-client\src\Client.php:74 CONTEXT: {"exception":{}}
+2025-12-04T06:30:45+00:00 INFO Started creating list session.
+2025-12-04T06:30:45+00:00 ERROR Failed to create LIST session. Exception caught: Syde\Vendor\Inpsyde\PayoneerSdk\Api\Command\Exception\CommandException: Failed to create list session. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\modules\inpsyde\payoneer-sdk\src\Api\Command\CreateListCommand.php:136
+Previous:
+Syde\Vendor\Inpsyde\PayoneerSdk\Client\ApiClientException: Api request failed. Exception was caught when trying to send request: A valid URL was not provided. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\modules\inpsyde\payoneer-sdk\src\Client\ApiClient.php:166
+Previous:
+Syde\Vendor\Inpsyde\Wp\HttpClient\Exception\NetworkException: A valid URL was not provided. in C:\xampp\htdocs\myshop\wordpress\wp-content\plugins\payoneer-checkout\vendor\inpsyde\psr-18-wp-http-client\src\Client.php:74 CONTEXT: {"exception":{}}
