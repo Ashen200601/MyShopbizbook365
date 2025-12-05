@@ -89,7 +89,8 @@ define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
-
+define('WP_HOME','http://localhost/MyShopbizbook365/wordpress');
+define('WP_SITEURL','http://localhost/MyShopbizbook365/wordpress');
 
 /* That's all, stop editing! Happy publishing. */
 

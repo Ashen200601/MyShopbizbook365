@@ -1,0 +1,35 @@
+.control-section-the-retail-storefront h3 {
+	margin: 0;
+	padding: 1px 0;
+	border: 0;
+	position: relative;
+}
+.control-section-the-retail-storefront h3 a {
+	background: #fff;
+	display: block;
+	text-decoration: none;
+}
+li#accordion-section-the-retail-storefront a {
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    padding: 4px 20px;
+    border-radius: 4px;
+    font-size: 15px;
+    text-decoration: none;
+    top: 49%;
+    background: #FE816D;
+    margin-top: -15px;
+    font-weight: 400;
+}
+#accordion-section-themes+.control-section {
+    margin-bottom: 17px;
+}
+
+img.the-retail-storefront-selector-img{
+    margin-right: 8px;
+}
+
+img.the-retail-storefront-selected-img{
+    border: 2px solid #2271b1;
+}

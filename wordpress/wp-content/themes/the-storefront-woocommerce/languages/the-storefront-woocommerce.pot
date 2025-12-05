@@ -1,0 +1,141 @@
+# Copyright (C) 2025 revolutionwp
+# This file is distributed under the GNU General Prefer License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: The Storefront Woocommerce 1.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/the-storefront-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-10-23T10:38:44+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: the-storefront-woocommerce\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "The Storefront Woocommerce"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://www.revolutionwp.com/products/storefront-woocommerce"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "The Storefront Woocommerce is a multipurpose and minimal design solution that blends elegance with sophistication for modern online stores. Built with a focus on a clean, clutter-free layout, it ensures a user-friendly shopping experience while keeping the look beautiful and retina-ready across all devices. The Theme is best suitable for WooCommerce online shop, WooCommerce responsive theme, WooCommerce mobile friendly, WooCommerce digital downloads, WooCommerce booking system, WooCommerce appointment plugin, WooCommerce coupons, WooCommerce discounts, WooCommerce product variations, and other service providers. It also works perfectly for fashion stores, electronics stores, furniture shops, beauty and skincare shops, and sports equipment stores, expanding its versatility across multiple eCommerce niches. Its responsive structure guarantees a seamless display on desktops, tablets, and smartphones, making it highly mobile-friendly and accessible to all customers. Developed with optimized and secure, clean code, the theme delivers faster page load time, ensuring smooth browsing and improved performance. Integrated with the Storefront WooCommerce-friendly features, it is designed to work flawlessly with WooCommerce, giving store owners the flexibility to set up product catalogs, shopping carts, and checkout systems effortlessly. With Bootstrap framework support, shortcodes, and a variety of customization options, users can personalize layouts to align with their brand identity. The theme also offers dynamic sections such as a testimonial section to build customer trust, a team showcase to highlight key members, and engaging banners to promote featured products or sales. Strategically placed call-to-action buttons (CTAs) help drive conversions, while built-in social media integration allows easy connection with customers across platforms. Its interactive and sometimes animated elements make browsing more engaging, giving a stunning visual appeal to your storefront. Fully translation-ready, this theme caters to global businesses by making multilingual setups simple and effective. Whether you want a modern or luxurious vibe, the personalization options let you design a store that reflects your unique style. Overall, the Storefront Woocommerce Theme is a versatile choice for developers, entrepreneurs, and creative businesses seeking a secure, fast, and beautifully designed eCommerce platform."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "revolutionwp"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://www.revolutionwp.com/"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:25
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:31
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:56
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:45
+msgid "Search"
+msgstr ""
+
+#: footer.php:49
+msgid "Tags"
+msgstr ""
+
+#: footer.php:63
+msgid "No tags available. Add some tags to display here."
+msgstr ""
+
+#: footer.php:69
+msgid "Calender"
+msgstr ""
+
+#: footer.php:96
+msgid "The Storefront Woocommerce Theme By Revolution WP "
+msgstr ""
+
+#: functions.php:108
+msgid "Add Free Shipping Text"
+msgstr ""
+
+#: functions.php:118
+msgid "Add Free Shipping Link"
+msgstr ""
+
+#: functions.php:128
+msgid "Add Offer Text"
+msgstr ""
+
+#: functions.php:141
+msgid "Select"
+msgstr ""
+
+#: functions.php:156
+msgid "Select Sale Product Category"
+msgstr ""
+
+#: header.php:22
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:102
+msgid "My Account"
+msgstr ""
+
+#: header.php:105
+msgid "Login / Register"
+msgstr ""
+
+#: header.php:113
+msgid "shopping cart"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Home Page"
+msgstr ""
+
+#: revolution-home.php:52
+msgid "ALL CATEGORIES"
+msgstr ""
+
+#: revolution-home.php:128
+msgid "Placeholder"
+msgstr ""
+
+#: revolution-home.php:138
+msgid "Sale"
+msgstr ""
+
+#: revolution-home.php:144
+msgid "UP TO "
+msgstr ""
+
+#: revolution-home.php:144
+msgid "% OFF"
+msgstr ""
+
+#: revolution-home.php:160
+msgid "Show Now"
+msgstr ""

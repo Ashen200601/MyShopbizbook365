@@ -1,0 +1,266 @@
+.faqly-templates-btn-wrap, .faqly-bundle-btn-wrap {
+    background: transparent linear-gradient(117deg, rgba(2, 73, 133, 1), rgba(1, 137, 240, 1) 99%) no-repeat padding-box;
+    border-radius: 3px;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+.faqly-templates-btn-wrap span, .faqly-bundle-btn-wrap span {
+    text-align: left;
+    font: normal normal 600 16px/21px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-family: unset;
+}
+.faqly-bundle-btn-wrap {
+    margin-left: 15px;
+    background-image: linear-gradient(96deg, #6254e7 0%, #9289f1 100%);
+}
+.faqly-templates-modal-wrap-main{
+    position: relative;
+    position: relative;
+    margin: 0 auto;
+    display: none;
+}
+.faqly.templates-modal-wrap{
+    position: fixed;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #00000029;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+    top: 8%;
+    left: 0;
+    right: 0;
+    padding: 20px 30px;
+    height: auto;
+    flex-direction: column;
+    justify-content: left;
+    gap: 15px;
+}
+.templates-modal-wrap  .templates-modal-content-wrap{
+    display: flex;
+    gap: 20px;
+    width: 100%;    
+}
+.templates-modal-wrap  .templates-modal-content-cards{
+    width: 100%;
+    display: table;
+}
+.templates-modal-wrap  .templates-modal-content-categories{
+    border: 1px solid #707070;
+    border-radius: 6px;
+    padding: 10px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 675px;
+    overflow-y: scroll;
+}
+.templates-modal-wrap  .templates-modal-content-categories h4{
+    font: 600 20px / 27px outfit;
+    letter-spacing: 0px;
+    margin: 0;
+}
+.templates-modal-wrap  .templates-modal-categories{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.templates-modal-wrap  .templates-modal-categories li{
+    font: 400 16px / 27px outfit;
+    letter-spacing: 0px;
+    color: #707070;
+    cursor: pointer;
+}
+.templates-modal-wrap  .faqly-card-img-wrap::after {
+    content: "";
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #000;
+    opacity: 0;
+    z-index: 0;
+    background: transparent linear-gradient(90deg, #F159F2 0%, #0324C5 100%) 0% 0% no-repeat padding-box;
+    transition: 0.2s ease-in-out;
+    border-radius: 5px;
+}
+.templates-modal-content-cards-wrap{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    height: max-content;
+    max-height: 700px;
+    overflow-y: scroll;
+    padding-right: 20px;
+    gap: 5px;
+}
+button.faqly.templates-load-more{
+    font: normal normal 600 15px / 30px Outfit;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background: transparent linear-gradient(117deg, rgba(2, 73, 133, 1), rgba(1, 137, 240, 1) 99%) no-repeat padding-box;
+    margin: 10px auto;
+    border: none;
+    padding: 4px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    font-family: unset;
+    font-weight: bold;
+}
+.templates-modal-search{
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.templates-modal-form input{
+    border: none !important;
+    width: 90%;
+    background: transparent;
+    padding: 10px;
+}
+.templates-modal-form{
+    display: flex;
+    align-items: center;
+}
+.templates-modal-form input[type=search]:focus{
+    box-shadow:unset !important;
+    border: none !important;
+}
+.templates-modal-form .search-img{
+    object-fit: contain;
+    width: 25px;
+    height: 25px;
+}
+.faqly-dismiss-modal {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    background: transparent linear-gradient(117deg, rgba(2, 73, 133, 1), rgba(1, 137, 240, 1) 99%) no-repeat padding-box;
+    color: white;
+    border-radius: 27px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 46px;
+}
+.faqly-dismiss-modal {
+    cursor: pointer;
+}
+.faqly.templates-load-more {
+    cursor: pointer;
+}
+.faqly.templates-modal-categories li.active {
+    background: #F0AC0E;
+    background: linear-gradient(to right, #F0AC0E 0%, #F56616 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;   
+}
+.faqly-box {
+    color: #fff;
+    font-size: 150%;
+    width: 33.33%;
+    float: left;
+    margin-bottom: 25px;
+}
+.faqly-box-widget {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+.faqly-media {
+    position: relative;
+    background: #FFFFFF;
+    height: 210px;
+    overflow: hidden;
+}
+.faqly-media img.faqly-product-img {
+    height: 100%;
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.faqly-product-price-img{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    max-height: 139px;
+    max-width: 204px;
+}
+.faqly-template-title {
+    text-align: left;
+    color: #000;
+    padding: 15px 20px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fff;
+    border-top: 1px solid #c5c5c5;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.faqly-btn {
+    text-align: left;
+    margin: 10px 0px;
+    padding: 0px 15px 15px 15px;
+}
+.faqly-btn a {
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    margin: 0px 5px;
+    background: #f0ac0e;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    text-decoration: none;
+    align-content: center;
+}
+
+.faqly-btn a.ins-btn.installbtn {
+    background-color: #2271b1 !important;
+    transition: 0.3s ease-in-out;
+    &:hover {
+        background-color: #2271b1 !important;
+    }
+}
+
+.faqly-btn a.documentationbtn {
+    width: 150px;
+}
+
+.faqly-product-banner-wrap {
+    position: absolute;
+    background: transparent linear-gradient(117deg, rgba(2, 73, 133, 1), rgba(1, 137, 240, 1) 99%) no-repeat padding-box;
+    font-weight: 1000;
+    border-radius: 50px;
+    padding: 28px 13px;
+    box-shadow: 0 5px 8px 0 rgba(234, 157, 33, 0.3);
+    top: 5px;
+    right: 5px;
+    letter-spacing: 0.03em;
+}
+
+.faqly-product-banner-wrap h2 {
+    font-size: 14px;
+    margin-bottom: unset;
+    color: #ffffff;
+}

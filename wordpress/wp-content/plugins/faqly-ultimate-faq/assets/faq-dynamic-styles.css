@@ -1,0 +1,129 @@
+/* FAQ Dynamic Styles - CSS Custom Properties Approach */
+/* This file contains the base styles using CSS variables for dynamic theming */
+
+/* FAQ Accordion Container Variables */
+.faq-accordion-container.dynamic-styles-enabled {
+  --faq-title-font-size: 25px;
+  --faq-title-color: #333333;
+  --faq-title-bg-color: #ffffff;
+  --faq-title-border-radius: 5px;
+  --faq-title-padding-top: 10px;
+  --faq-title-padding-right: 10px;
+  --faq-title-padding-bottom: 10px;
+  --faq-title-padding-left: 10px;
+  --faq-title-font-family: Arial, sans-serif;
+  --faq-title-font-style: normal;
+  --faq-title-text-align: left;
+  --faq-title-text-transform: none;
+
+  --faq-desc-font-size: 18px;
+  --faq-desc-color: #666666;
+  --faq-desc-bg-color: #f8f9fa;
+  --faq-desc-padding-top: 10px;
+  --faq-desc-padding-right: 10px;
+  --faq-desc-padding-bottom: 10px;
+  --faq-desc-padding-left: 10px;
+  --faq-desc-font-family: Arial, sans-serif;
+  --faq-desc-font-style: normal;
+  --faq-desc-text-align: left;
+  --faq-desc-text-transform: none;
+
+  --faq-border-width: 0px;
+  --faq-border-style: solid;
+  --faq-border-color: #dd3333;
+
+  --faq-transition-time: 300ms;
+}
+
+
+/* FAQ Title/Button Styles */
+.faq-accordion-container.dynamic-styles-enabled .faq-display-custom {
+  font-size: var(--faq-title-font-size) !important;
+  color: var(--faq-title-color) !important;
+  background-color: var(--faq-title-bg-color) !important;
+  border-radius: var(--faq-title-border-radius) !important;
+  padding-top: var(--faq-title-padding-top) !important;
+  padding-right: var(--faq-title-padding-right) !important;
+  padding-bottom: var(--faq-title-padding-bottom) !important;
+  padding-left: var(--faq-title-padding-left) !important;
+  font-family: var(--faq-title-font-family) !important;
+  font-style: var(--faq-title-font-style) !important;
+  text-align: var(--faq-title-text-align) !important;
+  text-transform: var(--faq-title-text-transform) !important;
+  transition: all var(--faq-transition-time) ease !important;
+}
+
+/* FAQ Description/Content Styles */
+.faq-accordion-container.dynamic-styles-enabled .faq-display-custom-body {
+  font-size: var(--faq-desc-font-size) !important;
+  color: var(--faq-desc-color) !important;
+  background-color: var(--faq-desc-bg-color) !important;
+  padding-top: var(--faq-desc-padding-top) !important;
+  padding-right: var(--faq-desc-padding-right) !important;
+  padding-bottom: var(--faq-desc-padding-bottom) !important;
+  padding-left: var(--faq-desc-padding-left) !important;
+  font-family: var(--faq-desc-font-family) !important;
+  font-style: var(--faq-desc-font-style) !important;
+  text-align: var(--faq-desc-text-align) !important;
+  text-transform: var(--faq-desc-text-transform) !important;
+  transition: all var(--faq-transition-time) ease !important;
+}
+
+/* FAQ Item Border Styles */
+.faq-accordion-container.dynamic-styles-enabled .accordion-item {
+  border: var(--faq-border-width) var(--faq-border-style) var(--faq-border-color) !important;
+  transition: border-color var(--faq-transition-time) ease !important;
+}
+
+/* Animation States */
+.faq-accordion-container.dynamic-styles-enabled .faq-display-custom-collapse {
+  transition: all var(--faq-transition-time) ease !important;
+}
+
+/* Disabled Animation State */
+.faq-accordion-container.dynamic-styles-enabled .animation-disabled .faq-display-custom-collapse {
+  transition: none !important;
+}
+
+/* Hover States */
+.faq-accordion-container.dynamic-styles-enabled .faq-display-custom:hover {
+  opacity: 0.95;
+}
+
+/* Focus States */
+.faq-accordion-container .dynamic-styles-enabled .faq-display-custom:focus {
+  outline: 2px solid var(--faq-title-color);
+  outline-offset: 2px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .faq-accordion-container.dynamic-styles-enabled {
+    --faq-title-font-size: 20px;
+    --faq-desc-font-size: 16px;
+    --faq-title-padding-top: 8px;
+    --faq-title-padding-right: 8px;
+    --faq-title-padding-bottom: 8px;
+    --faq-title-padding-left: 8px;
+    --faq-desc-padding-top: 8px;
+    --faq-desc-padding-right: 8px;
+    --faq-desc-padding-bottom: 8px;
+    --faq-desc-padding-left: 8px;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .faq-accordion-container.dynamic-styles-enabled .faq-display-custom-collapse {
+    display: block !important;
+  }
+
+  .faq-accordion-container.dynamic-styles-enabled .faqly-icon {
+    display: none !important;
+  }
+}
+
+
+
+
+

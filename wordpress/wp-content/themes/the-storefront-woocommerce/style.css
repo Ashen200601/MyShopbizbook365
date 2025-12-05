@@ -1,0 +1,482 @@
+/*!
+Theme Name: The Storefront Woocommerce
+Theme URI: https://www.revolutionwp.com/products/storefront-woocommerce
+Author: revolutionwp
+Author URI: https://www.revolutionwp.com/
+Description: The Storefront Woocommerce is a multipurpose and minimal design solution that blends elegance with sophistication for modern online stores. Built with a focus on a clean, clutter-free layout, it ensures a user-friendly shopping experience while keeping the look beautiful and retina-ready across all devices. The Theme is best suitable for WooCommerce online shop, WooCommerce responsive theme, WooCommerce mobile friendly, WooCommerce digital downloads, WooCommerce booking system, WooCommerce appointment plugin, WooCommerce coupons, WooCommerce discounts, WooCommerce product variations, and other service providers. It also works perfectly for fashion stores, electronics stores, furniture shops, beauty and skincare shops, and sports equipment stores, expanding its versatility across multiple eCommerce niches. Its responsive structure guarantees a seamless display on desktops, tablets, and smartphones, making it highly mobile-friendly and accessible to all customers. Developed with optimized and secure, clean code, the theme delivers faster page load time, ensuring smooth browsing and improved performance. Integrated with the Storefront WooCommerce-friendly features, it is designed to work flawlessly with WooCommerce, giving store owners the flexibility to set up product catalogs, shopping carts, and checkout systems effortlessly. With Bootstrap framework support, shortcodes, and a variety of customization options, users can personalize layouts to align with their brand identity. The theme also offers dynamic sections such as a testimonial section to build customer trust, a team showcase to highlight key members, and engaging banners to promote featured products or sales. Strategically placed call-to-action buttons (CTAs) help drive conversions, while built-in social media integration allows easy connection with customers across platforms. Its interactive and sometimes animated elements make browsing more engaging, giving a stunning visual appeal to your storefront. Fully translation-ready, this theme caters to global businesses by making multilingual setups simple and effective. Whether you want a modern or luxurious vibe, the personalization options let you design a store that reflects your unique style. Overall, the Storefront Woocommerce Theme is a versatile choice for developers, entrepreneurs, and creative businesses seeking a secure, fast, and beautifully designed eCommerce platform.
+Version: 1.4
+Requires at least: 5.5
+Tested up to: 6.8
+Requires PHP: 5.6
+License: GNU General Prefer License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: the-storefront-woocommerce
+Template: wp-shop-woocommerce
+Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, grid-layout, full-width-template, wide-blocks, editor-style, custom-background, custom-colors, custom-header, custom-logo, custom-menu, sticky-post, featured-images, footer-widgets, flexible-header, post-formats, theme-options, threaded-comments, translation-ready, rtl-language-support, e-commerce, portfolio, blog
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+*/
+
+a{
+    text-decoration: none;
+    color: var(--color-primary1);
+}
+:root {
+  --primary-color: #30BFBF;
+  --secondary-color: #212A39;
+  --body-font: 'Montserrat', sans-serif;
+}
+#main-slider-wrap button.owl-prev i{
+  color: #fff;
+}
+#main-slider-wrap .owl-prev, #main-slider-wrap .owl-next{
+  background: var(--primary-color);
+  border:1px solid var(--primary-color);
+}
+#main-slider-wrap .owl-prev:hover, #main-slider-wrap .owl-next:hover{
+  background: transparent;
+  border:1px solid #fff;
+  color: #fff;
+}
+.site-header .return-btn a {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+.site-header .return-btn a:hover {
+  color: var(--primary-color);
+}
+.site-header .topbar-text {
+  color: rgb(255 255 255 / 90%);
+  font-size: 15px;
+  padding-left: 5px;
+}
+.nav-box-header-right p{
+  font-weight: 400;
+}
+.nav-box-header-right p.email-id {
+  border-left: 1px solid #a39e9e;
+  padding-left: 35px;
+}
+.site-branding .site-title{
+  font-weight: 600;
+  font-size: 32px;
+  text-transform: capitalize;
+}
+.main-slider-content-box {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+    right: 50%;
+    color: #fff;
+}
+.main-slider-content-box hr{
+  background: var(--primary-color);
+}
+.main-slider-content-box p.slider-content{
+  font-weight: 300;
+  margin: 35px 0;
+}
+.main-slider-inner-box {
+  background: var(--secondary-color);
+}
+.main-slider-inner-box img{
+  opacity: 0.5;
+}
+.main-slider-button a{
+  background: var(--primary-color);
+  font-weight: 200;
+  padding:10px 20px;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.main-slider-button a:hover{
+  background: var(--secondary-color);
+}
+
+/*owl nav*/
+#main-slider-wrap .owl-dots {
+  position: absolute;
+    top: 90%;
+    flex-direction: row;
+    display: flex;
+    left: 5%;
+    right: auto;
+    bottom: auto;
+    text-align: center;
+}
+#main-slider-wrap .owl-dots .owl-dot {
+  background: transparent;
+  border-radius: 50%;
+  height: 11px;
+  margin: 10px;
+  width: 11px; 
+  border: 2px solid #fff;
+}
+#main-slider-wrap .owl-dots .owl-dot.active {
+  border: 2px solid #fff;
+  background: #fff;
+}
+h4.product-head {
+    font-size: 22px;
+    margin: 8px 0px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+.main-expert-button a{
+  font-weight: 200;
+  font-size: 16px;
+}
+.box img{
+  width: 90%;
+  height: 492px;
+}
+.heading-expert-wrap h5{
+  font-weight: 300;
+}
+.product-image {
+  padding: 16px;
+  background: #F7F7F7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.product-box-content:hover h6.product-heading-text a{
+  color: var(--primary-color);
+}
+
+
+
+.grid-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 20px;
+}
+
+.product-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.product-image img {
+  width: 80px !important;
+  height: 80px !important;
+  object-fit: cover;
+}
+
+/* Owl Products Carousel Navigation */
+.product-list .owl-nav {
+    position: absolute;
+    top: -7em;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+.product-list .owl-carousel .owl-nav button.owl-prev,
+.product-list .owl-carousel .owl-nav button.owl-next {
+    width: 42px !important;
+    height: 42px !important;
+    border-radius: 50% !important;
+    font-size: 25px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+/* Next Button (Filled Style) */
+.product-list .owl-carousel .owl-nav button.owl-next, 
+.product-list .owl-carousel .owl-nav button.owl-prev {
+    background: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    color: #fff;
+}
+/* Hover Effects */
+.product-list .owl-carousel .owl-nav button.owl-prev:hover,
+ .product-list .owl-carousel .owl-nav button.owl-next:hover {
+    background: #fff;
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);;
+}
+#product-sec .product-image img{
+  object-fit: contain;
+}
+/*single product sale*/
+.product-box{
+  position: relative;
+  z-index: 9;
+}
+.top-expert-wrap .owl-carousel{
+  display: block !important;
+}
+  .product-box-content-one h2 {
+  margin: 0;
+  line-height: 1;
+  }
+  .product-box-content-one h2 a {
+  margin: 0;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-size: 30px;
+  color: var(--secondary-color);
+  font-weight: 500;
+  text-decoration: none;
+  }
+  .product-box-content-one .product-image-one {
+  position: relative;
+  z-index: 9;
+  background-color: #fff;
+  margin: 0 15px;
+  }
+  .product-box-content-one .product-image-one img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+  }
+  .product-box-content-one .content-over-image {
+  position: absolute;
+  top: 10%;
+  right: 30%;
+  left: 10%;
+  text-align: left;
+  z-index: 9999;
+  }
+  .product-box-content-one .sale-tag {
+  font-size: 33px;
+  color: var(--secondary-color);
+  font-family: "Caveat Brush", cursive;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  }
+  .product-box-content-one .sale-percentage {
+  font-size: 18px;
+  letter-spacing: 4px;
+  color: var(--secondary-color);
+  }
+  
+  .product-box-content-one .product-price {
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-family: "Caveat Brush", cursive;
+  }
+  .product-box-content-one .product-price del span {
+  font-size: 15px;
+  font-weight: 500;
+  }
+  .product-box-content-one .product-price ins span {
+  font-size: 22px;
+  font-weight: 500;
+  }
+  .main-shop-now a {
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  background: var(--primary-color);
+  border-radius: 30px;
+  font-family: 'Caveat Brush', cursive;
+  display: inline-block;
+  }
+  
+  .main-shop-now a:hover,
+  .main-shop-now a:focus {
+  background: var(--secondary-color);
+  color: #fff;
+  }
+  
+  .product-box-content-one:hover .sale-tag,
+  .product-box-content-one:hover h2 a,
+  .product-box-content-one:hover .product-price,
+  .product-box-content-one:hover .sale-percentage {
+  color: #fff;
+  }
+  
+  .product-box-content-one:hover .product-image-one {
+  background-color: #000;
+  }
+  
+  .product-box-content:hover .product-image-one img {
+  opacity: 0.5;
+  }
+  
+@media screen and (max-width: 767px){
+  .main-slider-content-box p{
+    font-size: 10px;
+  }
+  .main-navigation ul#primary-menu>li>a, .main-navigation div#primary-menu>ul>li>a{
+    padding-left: 0;
+  }
+  .nav-box-header-right p{
+    margin-bottom: 10px;
+  }
+  .product-cat{
+    height: auto;
+  }
+  .box{
+    margin: 10px 0;
+  }
+  .box img{
+    width: 100%;
+  }
+  .grid-box {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+}
+  .main-slider-content-box h3{
+    line-height: 1.2;
+    font-size: 34px;
+  }
+  .main-slider-content-box p.slider-content{
+    display: none;
+  }
+  #main-slider-wrap .owl-nav, #main-slider-wrap .owl-dots .owl-dot{
+    display: none;
+  }
+  .main-slider-content-box{
+    left: 10%;
+    right: 10%;
+    text-align: center;
+  }
+  .slider-divide{
+    padding: 0;
+  }
+  .main-navigation{
+    text-align: center;
+  }
+  .nav-box-header-right p.email-id{
+    border-left: none;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 999px){
+  .product-box-content-one .product-image-one img{
+    height: 450px;
+  }
+  .product-box-content-one h2 a{
+    font-size: 25px;
+  }
+  .product-box-content-one .sale-percentage{
+    font-size: 10px;
+  }
+  .main-navigation ul#primary-menu>li>a, .main-navigation div#primary-menu>ul>li>a{
+    padding-left: 0;
+  }
+  .product-image{
+    margin-right: 5px;
+  }
+  h6.product-heading-text a{
+    line-height: 1.2;
+    font-size: 19px;
+  }
+  .main-expert-button a{
+    font-size: 10px;
+  }
+  .box-content{
+    right: 20%;
+  }
+  .product-image img {
+    width: 55px !important;
+    height: 55px !important;
+  }
+  .product-list .owl-carousel .owl-nav button.owl-prev, .product-list .owl-carousel .owl-nav button.owl-next{
+    width: 34px !important;
+    height: 34px !important;
+  }
+  .categry-title strong{
+    font-size: 15px;
+  }
+  #main-slider-wrap .owl-nav{
+    display: none;
+  }
+  .main-slider-content-box{
+    right: 30%;
+  }
+  .main-slider-content-box h3{
+    line-height: 1.4;
+    font-size: 35px;
+  }
+  .main-slider-inner-box img{
+    height: 500px;
+  }
+  .product-cat{
+    height: 450px;
+  }
+  .main-navigation{
+    text-align: center;
+  }
+  .main-header-wrap .flex-row{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-box-header-left, .nav-box-header-right{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+}
+@media screen and (min-width: 1000px) and (max-width: 1024px){
+  .product-box-content-one .product-image-one img{
+    height: 450px;
+  }
+  .product-box-content-one h2 a{
+    font-size: 25px;
+  }
+  .product-box-content-one .sale-percentage{
+    font-size: 10px;
+  }
+  .product-image{
+    margin-right: 5px;
+  }
+  h6.product-heading-text a{
+    line-height: 1.2;
+    font-size: 19px;
+  }
+  .main-expert-button a{
+    font-size: 10px;
+  }
+  .box-content{
+    right: 20%;
+  }
+  .product-image img {
+    width: 55px !important;
+    height: 55px !important;
+  }
+  .product-list .owl-carousel .owl-nav button.owl-prev, .product-list .owl-carousel .owl-nav button.owl-next{
+    width: 34px !important;
+    height: 34px !important;
+  }
+  .categry-title strong{
+    font-size: 15px;
+  }
+.main-slider-content-box{
+    right: 30%;
+  }
+  .main-slider-content-box h3{
+    line-height: 1.4;
+    font-size: 35px;
+  }
+  .account a{
+    font-size: 14px;
+  }
+  .main-navigation ul#primary-menu>li>a, .main-navigation div#primary-menu>ul>li>a{
+    font-size: 16px;
+  }
+  .main-navigation a{
+    padding: 11px 40px;
+  }
+}

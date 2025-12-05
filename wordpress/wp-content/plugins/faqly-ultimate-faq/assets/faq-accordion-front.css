@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Fredericka+the+Great&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&family=Unica+One&family=VT323&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* Base accordion styles */
+.accordion {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* Vertical Layout - Stacked (one per row) - DEFAULT */
+.accordion.vertical {
+    display: block !important;
+}
+
+.accordion.vertical .accordion-item {
+    display: block !important;
+    width: 100% !important;
+    margin-bottom: 24px !important;
+}
+
+
+/* Multicolumn Layout - Three columns grid */
+.accordion.multicolumn {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 15px !important;
+}
+
+.accordion.multicolumn .accordion-item {
+    flex: 1 1 calc(33.333% - 15px) !important;
+    min-width: 250px !important;
+    margin-bottom: 0 !important;
+}
+
+/* Style the FAQ search box container */
+.faq-search-container {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.faq-search-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+}
+
+.faq-search-box:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Accordion item styling */
+.accordion-item {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    position: relative !important;
+}
+
+/* Accordion header button */
+.accordion-button {
+    background-color: transparent;
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    box-shadow: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for accordion button */
+.accordion-button:hover {
+    background-color: #e9ecef;
+}
+
+/* When the accordion is collapsed */
+.accordion-button.collapsed {
+    background-color: #f1f1f1;
+}
+
+/* Accordion collapse effect */
+.accordion-body {
+    padding: 15px;
+    background-color: #f8f9fa;
+    font-size: 16px;
+    line-height: 1.6;
+    border-radius: 0 0 4px 4px;
+}
+
+/* Styling for 'No results found' message */
+.no-results-message {
+    text-align: center;
+    font-size: 16px;
+    color: #d9534f;
+    font-weight: bold;
+    margin-top: 20px;
+    display: none;
+}
+
+/* Optional: Style for the empty accordion if no FAQ items */
+.accordion-item.no-faqs {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+    color: #888;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .faq-search-box {
+        width: 80%;
+    }
+    /* Make multicolumn layout responsive on mobile */
+    .accordion.multicolumn .accordion-item {
+        flex: 1 1 100% !important;
+        min-width: 100% !important;
+    }
+    
+    .accordion.multicolumn {
+        gap: 15px !important;
+    }
+}
+
+
+
+
+/* Horizontal Layout - Side by side accordion */
+.accordion.horizontal {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100% !important;
+    /* border: 1px solid rgba(0, 0, 0, 0.125); */
+    
+}
+
+.accordion.horizontal .accordion-item {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-grow: 0 !important;
+    flex-shrink: 1 !important;
+    min-width: min-content !important;
+    margin-bottom: 0 !important;
+    border: none !important;
+    background: transparent !important;
+}
+
+.accordion.horizontal .accordion-header {
+    width: auto !important;
+}
+
+.accordion.horizontal .accordion-button {
+    transform: rotate(180deg) !important;
+    writing-mode: vertical-rl !important;
+    text-align: center !important;
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 15px 10px !important;
+}
+
+
+
+/* Mobile responsiveness for horizontal layout */
+@media (max-width: 768px) {
+    .accordion.horizontal {
+        flex-direction: column !important;
+    }
+    
+    .accordion.horizontal .accordion-item {
+        flex-direction: column !important;
+    }
+    
+    .accordion.horizontal .accordion-button {
+        transform: none !important;
+        writing-mode: horizontal-tb !important;
+        height: auto !important;
+        width: 100% !important;
+    }
+    
+    .accordion.horizontal .accordion-collapse:not(.show) {
+        width: 100% !important;
+        height: 0 !important;
+    }
+}
+
+.faq-search-hidden {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+}
+
+
+/* fontawsome icons */
+
+
+/* Font Awesome Icons */
+.faqly-icon {
+    /* display: inline-block;
+    width: 1em;
+    height: 1em;
+    position: relative;
+    margin-left: 10px; */
+    display: inline-block;
+	width: 1em;
+	height: 1em;
+	position: relative;
+	margin-left: auto; /* This pushes it to the right in a flex row */
+}
+
+.faqly-icon i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease;
+}
+
+.faqly-icon .close-icon {
+    opacity: 0;
+}
+
+.accordion-button:not(.collapsed) .faqly-icon .open-icon {
+    opacity: 0;
+}
+
+.accordion-button:not(.collapsed) .faqly-icon .close-icon {
+    opacity: 1;
+}
+
+/* Left icon position */
+.accordion-button .faqly-icon[style*="left"] {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+/* Remove Bootstrap default icons */
+.accordion-button::after {
+    display: none !important;
+}
+
+/* FAQ Pagination Styles */
+.faq-pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.faq-page-btn {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    background-color: #f8f9fa;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    min-width: 35px;
+    text-align: center;
+}
+
+.faq-page-btn:hover {
+    background-color: #e9ecef;
+    border-color: #bbb;
+}
+
+.faq-page-btn.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.faq-page-btn.loading {
+    background-color: #6c757d;
+    color: white;
+    cursor: not-allowed;
+}
+
+/* Expand/Collapse All Buttons */
+.faq-expand-collapse-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.faq-expand-all-btn,
+.faq-collapse-all-btn {
+    padding: 8px 16px;
+    border: 1px solid #007bff;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.faq-expand-all-btn:hover,
+.faq-collapse-all-btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.faq-expand-all-btn:focus,
+.faq-collapse-all-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+/* overide defualt border */
+:where([style*="border-width"]) {
+    border-style: none !important;
+}

@@ -1,0 +1,35 @@
+/* FAQly WooCommerce Settings Styles */
+
+.faq-tab-item {
+    border-left: 4px solid #007cba;
+    margin-bottom: 15px;
+}
+
+.faq-tab-item .card-body {
+    padding: 20px;
+}
+
+.specific-products-container select[multiple] {
+    min-height: 100px;
+}
+
+.remove-tab {
+    margin-top: 32px;
+}
+
+.display-faqs-on,
+.specific-products-container select {
+    margin-bottom: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .faq-tab-item .row > div {
+        margin-bottom: 15px;
+    }
+
+    .remove-tab {
+        margin-top: 0;
+        width: 100%;
+    }
+}

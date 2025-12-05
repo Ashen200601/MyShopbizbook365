@@ -1,0 +1,1173 @@
+.faq-accordion {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.faq-question {
+  padding: 15px;
+  background: #f9f9f9;
+  cursor: pointer;
+  margin: 0;
+  font-weight: bold;
+}
+
+.faq-answer {
+  display: none;
+  padding: 15px;
+  background: #ffffff;
+}
+
+/* Overall styling for the metabox */
+#accordion-settings-metabox {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title of the metabox */
+.metabox-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Styling for setting groups */
+.setting-group {
+  margin-bottom: 20px;
+}
+
+/* Label for each setting */
+.setting-label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Grouping of radio buttons */
+.radio-group {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* Style for each radio button label */
+.radio-option {
+  font-size: 14px;
+  color: #444;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.radio-option input[type="radio"] {
+  margin-right: 8px;
+  margin-top: 2px;
+}
+
+/* Hover effect on the radio button labels */
+.radio-option:hover {
+  color: #0073aa;
+}
+
+/* Divider styling */
+.setting-divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 15px 0;
+}
+
+/* Input state styling */
+input[type="radio"]:checked+label {
+  font-weight: bold;
+  color: #0073aa;
+}
+
+/* code for 2nd  tab */
+
+/* Overall styling for the form group */
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label styling */
+.form-group label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+/* Select box styling */
+.form-control {
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  width: 100%;
+}
+
+/* Focus state for select box */
+.form-control:focus {
+  border-color: #0073aa;
+  box-shadow: 0 0 5px rgba(0, 115, 170, 0.5);
+  outline: none;
+}
+
+/* Option styling for select box */
+.form-control option {
+  padding: 8px;
+  font-size: 14px;
+}
+
+/* Hover effect on form groups */
+.form-group:hover label {
+  color: #0073aa;
+}
+
+/* Select box disabled state */
+.form-control:disabled {
+  background-color: #f5f5f5;
+  border-color: #ddd;
+  cursor: not-allowed;
+}
+
+/* Optional extra margin for bottom */
+.form-group:last-child {
+  margin-bottom: 0;
+}
+
+/* tab upper button css  */
+
+/* Container for the tab navigation */
+#pills-tab {
+  padding: 0;
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  display: flex;
+  margin: 30px 0 0 0;
+}
+
+/* Styling for individual nav items */
+.nav-item {
+  margin-right: 10px;
+}
+
+/* Styling for the nav buttons (links) */
+.nav-link {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+
+  background-color: transparent;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+#edit-slug-box {
+  display: none;
+}
+
+#preview-action {
+  display: none;
+}
+
+.dashicons-search:before {
+  content: "\f179";
+  position: absolute;
+  bottom: 14px;
+}
+
+.search-wrapper-outer {
+  display: flex;
+  gap: 20px;
+  /* optional spacing */
+}
+
+.search-container {
+  order: 2;
+}
+
+#api-response-dropdown {
+  order: 1;
+  max-width: 500px !important;
+  font-size: 16px !important;
+}
+
+.search-container {
+  max-width: 500px;
+  width: 100%;
+  height: 50px;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+input#search-box {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  border: 1px solid #707070;
+  padding-left: 40px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #1d2327;
+}
+
+.search-wrapper-outer {
+  display: flex;
+  justify-content: space-between;
+  width: 72%;
+  margin-top: 30px;
+  margin-inline: auto;
+}
+
+.faqly-product-card img {
+  max-height: 337px;
+  height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: top;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px;
+}
+
+.faqly-product-card {
+  border: none !important;
+  padding: 0px;
+  width: 100%;
+  max-width: 360px;
+  flex: 1 1 calc(33.333% - 30px);
+  /* for a 3-column grid with gap */
+  margin-inline: auto;
+}
+
+.faqly-product-card-body {
+  display: flex;
+  align-items: center;
+  border-radius: 0 0 3px 3px;
+  border: 1px solid rgba(226, 230, 235, 0.7);
+  background: rgba(235, 237, 241, 0.2);
+  padding: 30px !important;
+  border-top: none;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.faqly-product-card img {
+  max-height: 270px;
+  height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: top;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.faqly-product-img-wrap {
+  position: relative;
+}
+
+#faqly-block-tab .faqly-button-wrapper {
+  display: flex;
+  gap: 10px;
+  opacity: 1;
+  justify-content: center;
+  background: rgba(246, 247, 247, 0.7);
+  padding-top: 13px;
+}
+
+#bundle-product-cards .faqly-button-wrapper {
+  display: flex;
+  gap: 10px;
+  opacity: 1;
+  background: rgba(235, 237, 241, 0.2);
+  border-bottom: none;
+  justify-content: center;
+  padding-top: 13px;
+}
+
+#faqly-block-tab .faqly-product-card:hover .faqly-button-wrapper {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#bundle-product-cards .faqly-product-card:hover .faqly-button-wrapper {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+div#product-cards h5.card-title {
+  margin: 0 !important;
+  font-size: 18px;
+  font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+#bundle-product-cards h5.card-title {
+  margin: 0 !important;
+  font-size: 18px;
+  font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+#bundle-product-cards .faqly-product-card img {
+  max-height: 385px;
+}
+
+.faqly-product-img-wrap {
+  position: relative;
+}
+
+p.faqly-product-card-text span {
+  display: none;
+  font: normal normal 600 22px / 30px Outfit;
+  letter-spacing: 0px;
+  color: #ff0707;
+}
+
+.faqly-product-img-wrap::after {
+  content: "";
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #000;
+  opacity: 0;
+  z-index: 0;
+  background: transparent linear-gradient(117deg, rgba(2, 73, 133, 1), rgba(1, 137, 240, 1) 99%) no-repeat padding-box;
+}
+
+#faqly-block-tab .faqly-product-img-wrap a.btn.btn-primary {
+  font-size: 14px;
+  padding: 5px 15px;
+  color: rgba(46, 68, 83, 0.8);
+  background: #fff;
+  border-color: #e2e6eb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+#faqly-block-tab .faqly-product-card:hover .faqly-product-img-wrap::after {
+  opacity: 0.8;
+}
+
+#faqly-block-tab .faqly-product-card:hover a.btn.btn-primary {
+  opacity: 1;
+}
+
+#bundle-product-cards .faqly-product-img-wrap a.btn.btn-primary {
+  font-size: 14px;
+  padding: 5px 15px;
+  color: rgba(46, 68, 83, 0.8);
+  background: #fff;
+  border-color: #e2e6eb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+#bundle-product-cards .faqly-product-card:hover .faqly-product-img-wrap::after {
+  opacity: 0.8 !important;
+}
+
+#bundle-product-cards .faqly-product-card:hover a.btn.btn-primary {
+  opacity: 1 !important;
+}
+
+#bundle-product-cards .faqly-product-card-body {
+  width: 100%;
+}
+
+button#load-more {
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: #d71800;
+  margin: 20px auto;
+  border: none;
+}
+
+.search-container ::placeholder {
+  opacity: 1 !important;
+  color: #1d2327;
+}
+
+#product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+
+#bundle-product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.faqly-button-wrapper {
+  z-index: 99;
+}
+
+.ov-text-container h6 {
+  font: normal normal normal 18px / 23px Segoe UI, Outfit;
+  letter-spacing: 0px;
+  color: #707070;
+}
+
+select#category {
+  letter-spacing: 0px;
+  color: #000000;
+  font-size: 10px;
+  font-size: 15px;
+  max-width: 100%;
+  width: 100%;
+  height: 48px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.type-dropdown::after {
+  content: "\f161";
+  color: #707070;
+  position: absolute;
+  right: 2px;
+  top: 10px;
+  bottom: 0;
+  font-family: "FontAwesome";
+  font-size: 20px;
+  background: #fff;
+  height: 30px;
+  width: 30px;
+}
+
+.type-dropdown {
+  position: relative;
+  max-width: 230px;
+  width: 100%;
+}
+
+.type-dropdown {
+  position: relative;
+}
+
+p.faqly-product-card-text {
+  position: absolute;
+  color: #a1680d;
+  background-color: #ffc568;
+  font-size: 14px;
+  font-weight: 1000;
+  border-radius: 3px;
+  padding: 7px 13px;
+  box-shadow: 0 5px 8px 0 rgba(234, 157, 33, 0.3);
+  top: 20px;
+  right: 20px;
+  letter-spacing: 0.03em;
+}
+
+#bundle-product-cards p.faqly-product-card-text {
+  position: absolute;
+  color: #a1680d;
+  background-color: #ffc568;
+  font-size: 16px;
+  font-weight: 1000;
+  border-radius: 3px;
+  padding: 10px 15px;
+  box-shadow: 0 5px 8px 0 rgba(234, 157, 33, 0.3);
+  top: 10%;
+  right: 8%;
+  letter-spacing: 0.03em;
+}
+
+#wpbody .notice.is-dismissible.faqly-upsell-banner {
+  padding: unset !important;
+  margin: unset !important;
+  width: 100%;
+  border: unset;
+}
+
+.faqly-upsell-banner .notice-dismiss::before {
+  color: #000;
+}
+
+#wpbody .notice.is-dismissible.faqly-upsell-banner img {
+  width: 100%;
+}
+
+li#toplevel_page_edit-post_type-faqly_faq_group ul li:last-child a {
+	background: #d71800;
+	color: #fff;
+	font-weight: 600;
+	text-align: center;
+	border-radius: 4px;
+	margin-left: 14px;
+	margin-right: 20px;
+	padding: 5px 10px;
+	font-size: 0.75rem !important;
+	margin-top: 4px;
+}
+
+li#toplevel_page_edit-post_type-faqly_faq_group ul li:last-child a:hover {
+  color: white !important;
+  background-color: #d71800;
+}
+
+
+
+/* My Styles 2 -banner*/
+.faqly-upsell-banner {
+  position: relative !important;
+  height: 10rem;
+}
+
+.faqly-upsell-banner-container {
+  position: absolute !important;
+  top: 18% !important;
+  left: 5% !important;
+  display: flex;
+  align-items: center;
+
+  width: 46%;
+  justify-content: space-between;
+}
+
+.faqly-upsell-banner-image {
+  height: 100% !important;
+}
+
+.faqly-upsell-banner-image img {
+  height: 100% !important;
+  background-repeat: no-repeat !important;
+}
+
+.faqly-upsell-banner-content {
+  margin-right: 1rem;
+}
+
+.faqly-upsell-banner-content h1 {
+  font-size: 37px;
+  font-weight: 800;
+  color: #092452;
+}
+
+.faqly-upsell-banner-content p {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 0;
+  color: #092452;
+  padding-top: 0;
+}
+
+.faqly-upsell-banner-btn a {
+  background-color: red;
+  padding: 8px 10px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 23px;
+}
+
+/* my styles - banner */
+
+@media (max-width: 1707px) {
+  .faqly-upsell-banner-container {
+    width: 53%;
+  }
+}
+
+@media (max-width: 1507px) {
+  .faqly-upsell-banner-container {
+    width: 53%;
+  }
+
+  .faqly-upsell-banner-content h1 {
+    font-size: 34px;
+  }
+
+  .faqly-upsell-banner-content p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1435px) {
+  .faqly-upsell-banner-btn a {
+    font-size: 18px;
+  }
+
+  .faqly-upsell-banner-content h1 {
+    font-size: 28px;
+  }
+
+  .faqly-upsell-banner-content p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1212px) {
+  .faqly-upsell-banner-btn a {
+    font-size: 14px;
+  }
+
+  .faqly-upsell-banner-content h1 {
+    font-size: 24px;
+  }
+
+  .faqly-upsell-banner-content p {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 1064px) {
+  .faqly-upsell-banner-btn a {
+    font-size: 12px;
+  }
+
+  .faqly-upsell-banner-content h1 {
+    font-size: 20px;
+  }
+
+  .faqly-upsell-banner-content p {
+    font-size: 9px;
+  }
+
+  .faqly-upsell-banner-container {
+    top: 33% !important;
+  }
+}
+
+@media (max-width: 811px) {
+  .faqly-upsell-banner-btn a {
+    font-size: 12px;
+  }
+
+  .faqly-upsell-banner-content h1 {
+    font-size: 20px;
+  }
+
+  .faqly-upsell-banner-content p {
+    font-size: 9px;
+  }
+
+  .faqly-upsell-banner-container {
+    top: 14% !important;
+    align-items: initial !important;
+    flex-direction: column !important;
+    gap: 1rem;
+  }
+}
+
+/* my styles 3-templates */
+.card-buy-now-btn {
+  border: none !important;
+  border-radius: 3px !important;
+  max-width: 90px !important;
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-buy-now-btn :hover {
+  border: none !important;
+}
+
+.card-demo-btn {
+  background-color: white !important;
+  border-radius: 3px !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  border-color: white !important;
+  color: #2e4453 !important;
+  border-color: #e2e6eb !important;
+  padding: 8px 20px;
+  margin: 0px !important;
+  width: 90px !important;
+  height: 40px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* media query -temp */
+
+@media (max-width: 2560px) {
+  .faqly-product-card {
+    border: none !important;
+    padding: 0px;
+    width: 100%;
+    max-width: 500px;
+    flex: 1 1 calc(33.333% - 30px);
+    margin-inline: auto;
+  }
+}
+
+@media (max-width: 2330px) {
+  .search-wrapper-outer {
+    display: flex;
+    justify-content: space-between;
+    width: 74%;
+    margin-top: 30px;
+    margin-inline: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .search-wrapper-outer {
+    justify-content: space-between;
+    width: 98%;
+  }
+
+  #product-cards>* {
+    width: 33% !important;
+  }
+
+  #bundle-product-cards .faqly-product-card img {
+    max-height: 321px;
+  }
+}
+
+@media (max-width: 992px) {
+  .faqly-product-card-body {
+    padding: 10px 12px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #product-cards>* {
+    width: 49% !important;
+  }
+
+  #bundle-product-cards .faqly-product-card img {
+    max-height: 272px;
+  }
+}
+
+@media (max-width: 576px) {
+  #product-cards>* {
+    width: 85% !important;
+  }
+}
+.faq-copy-id{
+  cursor:pointer;
+}
+#faqly-popup-overlay {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:#00000080;
+  z-index:9999;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+#faqly-popup-content {
+  background: #fff;
+  padding: 30px;
+  border-radius: 6px;
+  max-width: 700px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  border: 2px solid rgba(226, 230, 235, 0.7);
+}
+#faqly-popup-content .faqly-popup-template-btn, #faqly-popup-content  .faqly-popup-bundle-btn {
+  background: #d71800;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  padding: 0px 50px;
+}
+.faqly-popup-wrap {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+#faqly-popup-content img {
+  width: 100%;
+}
+#faqly-popup-content .faqly-popup-bundle-btn {
+  background: rgba(2, 73, 133, 1);
+}
+#faqly-popup-content h2 {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+#faqly-popup-content .faqly-popup-dismiss {
+  rotate: 45deg;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 40px;
+  cursor: pointer;
+  color: red;
+}
+.faqly-premium-floating-btn {
+  background: #d71800 !important;
+  border: none !important;
+  border-radius: 2px !important;
+  font-size: 18px !important;
+  padding: 0px 16px !important;
+}
+
+
+
+/* new css of theme-preview-settings-tab */
+
+.theme-card {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid #e9ecef;
+}
+
+.theme-card:hover {
+  border-color: #007bff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.theme-selected {
+  border-color: #28a745 !important;
+  background-color: #f8fff9;
+}
+
+.theme-preview {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.theme-preview-image {
+  max-height: 100px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.theme-selection-indicator {
+  margin-top: 10px;
+}
+
+
+/* typography tab code */
+
+
+
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 24px;
+}
+
+.toggle-slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .toggle-slider {
+  background-color: #007cba;
+}
+
+input:checked + .toggle-slider:before {
+  transform: translateX(26px);
+}
+
+.toggle-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#faq_group_settings .postbox-header {
+    background: linear-gradient(to right, #024985, #0189f0);
+}
+
+#faq_group_settings h2.hndle.ui-sortable-handle {
+    color: #fff;
+}
+
+#faq_group_settings .handle-actions.hide-if-no-js button {
+    color: white;
+}
+
+#faq_group_settings span.toggle-indicator {
+    color: white;
+}
+
+#faq_group_settings #add-faq-btn {
+    background: #024985;
+}
+
+#faqly-general-settings-tabs .nav-tabs .nav-item.show .nav-link,#faqly-general-settings-tabs .nav-tabs .nav-link.active,#faq_group_settings .nav-pills .nav-link.active,#faq_group_settings  .nav-pills .show>.nav-link,#faqly-tools-tabs .nav-link.active,#faqly-tools-tabs .show>.nav-link{
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid #024985;
+    background: #fff;
+    color: #024985;
+    box-shadow: 0px 0px 10px 2px #024985 inset;
+    border-right: 1px solid transparent;
+}
+#faqly-general-settings-tabs .nav-tabs .nav-link,#faq_group_settings .nav-pills .nav-link,#faqly-tools-tabs .nav-link {
+    background: linear-gradient(to right, #024985, #0189f0);
+    border-top: 1px solid #024985;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #e2e2e1;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+#display-settings-tabs .nav-pills .nav-link.active,#display-settings-tabs .nav-pills .show>.nav-link, #typography-settings-tabs .nav-pills .nav-link.active, .nav-pills .show>.nav-item {
+    -webkit-box-shadow: inset 3px 0 #024985;
+    box-shadow: inset 3px 0 #024985;
+    color: #024985;
+    font-weight: 600;
+    border-right-color: #fff;
+    margin-right: -1px;
+    border-right: none;
+    border-radius: 0;
+}
+#display-settings-tabs .nav-pills .nav-link {
+    margin-top: 0;
+    position: relative;
+    font-size: 13px;
+    color: #343434;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    overflow: hidden;
+    background: #FBF7F6;
+}
+
+#display-settings-tabs .nav-pills .nav-item, #typography-settings-tabs .nav-pills .nav-link {
+    background: #FBF7F6;
+    margin: 5px 0;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+#faqly-export-form button.btn.btn-primary.faqly-export-btn{
+  background-color: #024985;
+  color: #fff;
+}
+
+#faqly-import-form button.btn.btn-success.faqly-import-btn {
+  background-color: #024985;
+  color: #fff;
+  opacity: 1;
+}
+
+
+/* new for lock */
+.faqly-pro-label {
+  color: #d63638; /* WordPress red */
+  font-weight: bold;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+
+/* add css for pro plugin tab */
+
+.faqly-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.faqly-pro-plugin {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	text-align: center;
+	padding: 20px;
+	max-width: 500px;
+}
+
+.faqly-po-img-wrap img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.buy-button {
+  display: inline-block;
+  background-color: #0073aa;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+	/* background-color: #001a26; */
+	color: white;
+}
+
+.faqly-premium-floating-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+
+/* for pro metabox */
+
+/* Style for the Buy Pro Metabox */
+.faqly-buy-pro-metabox {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.faqly-buy-pro-text {
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 18px;
+}
+
+.faqly-buy-pro-button {
+  background-color: #d71800 !important;
+  border-color: #b81400 !important;
+  color: #fff !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+
+.faqly-buy-pro-button:hover {
+  background-color: #b81400 !important;
+  border-color: #a31200 !important;
+  text-decoration: none;
+  color: #fff !important;
+}
+
+a#pro-tab {
+  background: #d71800 !important;
+}
+
+#faqly_buy_pro_metabox .postbox-header{
+  background: linear-gradient(to right, #024985, #0189f0) !important;
+}
+
+#faqly_buy_pro_metabox .postbox-header h2{
+  color: #fff !important;
+}
+
+#faqly_buy_pro_metabox .handle-order-higher .order-higher-indicator::before,
+#faqly_buy_pro_metabox .handle-order-lower .order-lower-indicator::before,
+#faqly_buy_pro_metabox .handlediv .toggle-indicator::before{
+  color: #ffffff !important;
+}
+/* Topbar wrapper */
+.faqly-admin-topbar {
+  background: linear-gradient(117deg, rgb(2, 73, 133), rgb(1, 137, 240) 99%);
+  color:  #ffed00;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  width: 100%;
+  z-index: 9999;
+}
+
+/* Text inside topbar */
+.faqly-topbar-text {
+  margin-right: 240px;
+}
+
+/* Buy Now button */
+.faqly-topbar-btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #d62828;
+  padding: 12px 14px;
+  border-radius: 4px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.faqly-topbar-btn:hover {
+  background-color: #f5f5f5;
+  color: #d62828;
+}
+
